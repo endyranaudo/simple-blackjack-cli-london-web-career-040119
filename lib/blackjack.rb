@@ -61,8 +61,6 @@ def runner
   # code runner here
   welcome
   card_total = initial_round
-  hit?
-  display_card_total
   if display_card_total(card_total) < 21
     hit?(card_total)
   else
