@@ -30,9 +30,7 @@ end
 
 def initial_round
   # code #initial_round here
-  deal_card
-  deal_card 
-  card_total
+  total = deal_card + deal_card
 end
 
 def hit?
