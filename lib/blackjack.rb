@@ -67,5 +67,6 @@ def runner
     end_game
   else
     deal_card
+  end
 end
     
