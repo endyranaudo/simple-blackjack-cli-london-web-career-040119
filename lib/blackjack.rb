@@ -42,7 +42,7 @@ def hit?
   if input == "h"
     deal_card
   elsif input == "s"
-    end_game
+    display_card_total
   end
 end
 
